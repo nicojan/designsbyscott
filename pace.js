@@ -263,7 +263,6 @@
       el.className += ' pace-inactive';
       document.body.className = document.body.className.replace('pace-running', '');
       return document.body.className += ' pace-done';
-      $("html, body").animate({ scrollTop: 0 });
     };
 
     Bar.prototype.update = function(prog) {
