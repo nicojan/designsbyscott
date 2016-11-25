@@ -8,7 +8,7 @@
   defaultOptions = {
     catchupTime: 100,
     initialRate: .03,
-    minTime: 1000,
+    minTime: 250,
     ghostTime: 1100,
     maxProgressPerFrame: 20,
     easeFactor: 1.25,
