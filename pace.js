@@ -25,11 +25,8 @@
       sampleCount: 3,
       lagThreshold: 3
     },
-    ajax: {
-      trackMethods: ['GET'],
-      trackWebSockets: true,
-      ignoreURLs: ['#']
-    }
+    ajax: false,
+    
   };
 
   now = function() {
