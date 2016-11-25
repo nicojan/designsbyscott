@@ -13,8 +13,8 @@
     maxProgressPerFrame: 20,
     easeFactor: 1.25,
     startOnPageLoad: true,
-    restartOnPushState: false,
-    restartOnRequestAfter: false,
+    restartOnPushState: true,
+    restartOnRequestAfter: 500,
     target: 'body',
     elements: {
       checkInterval: 100,
